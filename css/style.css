@@ -664,10 +664,12 @@ body {
   transition: fill .5s ease
 }
 .about {
-  margin: 45px 0;
+  margin: 45px 0 45px;
+  padding: 45px 0 30px;
   background: url(../img/about.jpg) center/cover no-repeat
 }
 .about__text {
+  margin-bottom: 15px;
   font-size: 16px;
   line-height: 120%;
   color: #fff
@@ -939,7 +941,8 @@ body {
     fill: #fff
   }
   .about {
-    margin: 50px 0
+    margin: 50px 0;
+    padding: 50px 0 35px
   }
   .request:hover {
     background-color: #000
