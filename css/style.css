@@ -669,10 +669,12 @@ body {
   background: url(../img/about.jpg) center/cover no-repeat
 }
 .about__text {
-  margin-bottom: 15px;
   font-size: 16px;
   line-height: 120%;
   color: #fff
+}
+.about__text p {
+  margin-bottom: 15px
 }
 .request {
   position: fixed;
